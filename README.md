@@ -51,4 +51,5 @@ Based on the quantitative findings, I recommend the following actionable marketi
 
 ## 📁 Repository Structure
 *   `/scripts`: Contains all Python ETL scripts (`load_raw_data.py`, `enrich_data.py`, `export_tableau.py`, etc.) used to process the 5.5 million records.
+*   `/sql`: Contains the raw SQL queries extracted from the Python pipeline, demonstrating staging, mathematical filtering, aggregations, and subqueries.
 *   `/data`: Contains the aggregated, lightweight `.csv` summaries that feed the Tableau visualization.
